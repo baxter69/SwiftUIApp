@@ -20,7 +20,7 @@ struct News: Decodable, Identifiable {
     let url: String?
     let urlToImage: String?
     let publishedAt: String?
-    // UUID позволит создать уникальное значение для объекта (раз в год и хэш функция выдает не уникальное значение), используя UUID с практически 100% вероятностью получаем уникальное значение для использования в связки с List
+    // UUID позволит создать уникальное значение для объекта, получаем уникальное значение для использования в связки с List
     var id = UUID()
     
     private enum CodingKeys: CodingKey {

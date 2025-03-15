@@ -43,7 +43,6 @@ struct NewsListView: View {
                     .ignoresSafeArea()
             }
         }
-        //.tint(Color.white)
     }
     
     private func getUpdatesSearchHistory(searchHistory: [String], addText: String) -> [String] {
