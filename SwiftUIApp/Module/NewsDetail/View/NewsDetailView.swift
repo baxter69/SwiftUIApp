@@ -40,7 +40,6 @@ struct NewsDetailView: View {
                     .foregroundColor(.secondary)
                     .lineLimit(nil)
                     .fixedSize(horizontal: false, vertical: false)
-                    //.minimumScaleFactor(0.5)
                 
                 HStack {
                     Text(viewModel.news.getDisplayDate())
